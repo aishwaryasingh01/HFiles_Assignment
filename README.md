@@ -2,7 +2,7 @@
 
 This project is a Full-Stack Medical Record Management System built with **Next.js** and **ASP.NET Core 9**. It allows users to register, manage their profiles, and securely handle medical documents.
 
-## Technology Stack
+##  Technology Stack
 - **Frontend:** Next.js 15 (App Router), TypeScript, Tailwind CSS
 - **Backend:** ASP.NET Core 9 Web API
 - **Database:** MySQL (Entity Framework Core)
@@ -15,54 +15,7 @@ This project is a Full-Stack Medical Record Management System built with **Next.
   - Preview/View files directly in a new tab.
   - Delete records with real-time server and database sync.
 
-## How to Run the Project
-
-Follow these steps to set up the project on your local machine.
-
-### 1. Database Setup
-Create a database named `hfiles_db` in your MySQL server and run the following SQL queries:
-
-```sql
-CREATE TABLE UserProfiles (
-    Id INT AUTO_INCREMENT PRIMARY KEY,
-    FullName VARCHAR(255) NOT NULL,
-    Email VARCHAR(255) NOT NULL UNIQUE,
-    Password VARCHAR(255) NOT NULL,
-    Phone VARCHAR(20),
-    Gender VARCHAR(20),
-    ProfilePicPath VARCHAR(255)
-);
-
-CREATE TABLE MedicalRecords (
-    Id INT AUTO_INCREMENT PRIMARY KEY,
-    FileName VARCHAR(255),
-    FileType VARCHAR(50),
-    FilePath VARCHAR(255)
-);
-
-Gemini said
-Aishwarya, maine woh saare Run Instructions (Backend aur Frontend setup) ko include karke ek final professional README content taiyar kar diya hai. Aap bas ise copy karke apni README.md file mein paste kar dijiye.
-
-Final README.md Content:
-Markdown
-# Medical Record Dashboard - Assignment
-
-This project is a Full-Stack Medical Record Management System built with **Next.js** and **ASP.NET Core 9**. It allows users to register, manage their profiles, and securely handle medical documents.
-
-## 🚀 Technology Stack
-- **Frontend:** Next.js 15 (App Router), TypeScript, Tailwind CSS
-- **Backend:** ASP.NET Core 9 Web API
-- **Database:** MySQL (Entity Framework Core)
-- **API Documentation:** Swagger UI
-
-## ✨ Core Features
-- **User Authentication:** Secure signup functionality with MySQL integration.
-- **Profile Management:** Dashboard to view user info and upload profile pictures.
-- **Medical Records:** - Upload files (Images/PDFs).
-  - Preview/View files directly in a new tab.
-  - Delete records with real-time server and database sync.
-
-## ⚙️ How to Run the Project
+##  How to Run the Project
 
 Follow these steps to set up the project on your local machine.
 
